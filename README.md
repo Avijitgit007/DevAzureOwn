@@ -1,3 +1,3 @@
 # DevAzureOwn
 
-Avijit Akarsh Moumita
+Avijit Akarsh Moumita Pramit
