@@ -4,6 +4,10 @@
         <members>AccountProcessor</members>
          <members>AccountProcessorTest</members>
         <name>ApexClass</name>     
+    </types>
+    <types>
+        <members>Account.TestThis</members>        
+        <name>ValidationRule</name>     
     </types>   
     <version>48.0</version>
 </Package>

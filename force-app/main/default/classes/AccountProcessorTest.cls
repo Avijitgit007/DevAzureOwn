@@ -9,7 +9,7 @@ private class AccountProcessorTest{
         Account acct = new Account(Name='Test Account');
         lst_acc.add(acct);
         insert lst_acc;
-        
+        System.debug('-----'+lst_acc);
         for(Account acc : lst_acc){
             Contact con = new Contact(LastName='Test',AccountId=acc.Id);
             lst_con.add(con);

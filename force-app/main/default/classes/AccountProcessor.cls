@@ -1,4 +1,5 @@
 global class AccountProcessor{
+   
   @future
   public static void countContacts(List<Id> recordIds) {
     List<Account> ac = new List<Account>();
@@ -11,6 +12,7 @@ global class AccountProcessor{
         a.Id = (Id) r.get('AcctId');
         a.Number_of_Contacts__c = (Integer) r.get('ContactCount');
         ac.add(a);
+        System.debug('-----'+ac);
     }    
     update ac;    
    }
