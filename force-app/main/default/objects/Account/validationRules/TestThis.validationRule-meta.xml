@@ -2,6 +2,6 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>TestThis</fullName>
     <active>true</active>
-    <errorConditionFormula>NOT(ISNULL(Name))</errorConditionFormula>
+    <errorConditionFormula>(ISNULL(Name))</errorConditionFormula>
     <errorMessage>Test message</errorMessage>
 </ValidationRule>
