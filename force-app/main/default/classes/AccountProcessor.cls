@@ -12,7 +12,7 @@ global class AccountProcessor{
         a.Id = (Id) r.get('AcctId');
         a.Number_of_Contacts__c = (Integer) r.get('ContactCount');
         ac.add(a);
-        System.debug('-----'+ac1);
+        System.debug('---1--'+ac);
     }    
     update ac;    
    }
