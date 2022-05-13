@@ -5,9 +5,9 @@
          <members>AccountProcessorTest</members>
         <name>ApexClass</name>     
     </types>
-    <types>
+   <!-- <types>
         <members>Account.TestThis</members>        
         <name>ValidationRule</name>     
-    </types>   
+    </types>   -->
     <version>48.0</version>
 </Package>
